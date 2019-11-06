@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_about">حول التطبيق</string>
+    <string name="title_activity_favourit_list">المفضلة</string>
+    <string name="addtofav">تمت إضافة الوصفة إلى المفضلة</string>
+    <string name="delfromfav">تم حذف الوصفة من المفضلة</string>
+    <string name="favlistempty">لائحة الوصفات المفضلة فارغة</string>
+    <string name="emailadd">tariqelmoussaoui@gmail.com</string>
+
+    <string name="youAreNotUpdatedTitle">نسخة جديدة</string>
+    <string name="youAreNotUpdatedMessage">لقد تم إصدار نسخة جديدة لحلويات بلادي. المرجو تحديث التطبيق \s </string>
+    <string name="youAreNotUpdatedMessage1">\s الآن</string>
+    <string name="update">تحديث</string>
+</resources>

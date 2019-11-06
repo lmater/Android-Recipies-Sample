@@ -1,0 +1,38 @@
+***********************     SQLLITE      ********************************************
+
+CREATE TABLE rcipe (id integer primary key  AUTOINCREMENT, title text, ing text, howtodo text, img text)
+
+SELECT title,'@',ing,'@',howtodo,'@',img,'#' FROM 'rcipe';
+
+
+************************    ANDROID         ********************************************
+		   isg = assetManager.open("db/groups.txt");
+            isr = assetManager.open("db/assir.txt");
+            reader = new BufferedReader(new InputStreamReader(isg));
+            String line = null;
+            while ((line = reader.readLine()) != null) {
+                String[] thisLine = line.split("@");
+                // dbHandler.addHandlerGroup(new Group(Integer.valueOf(thisLine[0]),thisLine[1]));
+            }
+            reader = new BufferedReader(new InputStreamReader(isr));
+            int i=1;
+			int newrecipe=0;
+            String str=i+"@";i++;
+            while ((line = reader.readLine()) != null) {
+                line=line.replace(";@;","@");
+                line=line.replace(";#","#");
+                line=line.replace(".jpg","");
+				newrecipe=0;
+                for (int j = 0; j <line.length() ; j++) {
+                    if(!(line.substring(j,j+1).equals("#")))
+                        str+=line.charAt(j);
+                    else {
+                        System.out.println(str);str=i+"@";i++;
+						newrecipe=1;
+                    }
+                }
+                if(newrecipe==0) str+="<br>";
+//                    Recipe r = new Recipe(i,thisLine[0], thisLine[1], thisLine[2], thisLine[3],false);i++;
+                //dbHandler.addHandlerRecipe(r, 1);
+//                System.out.println(i+"@"+thisLine[0]+"@"+ thisLine[1]+"@"+ thisLine[2]+"@"+ thisLine[3]);
+            }

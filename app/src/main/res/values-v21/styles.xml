@@ -1,0 +1,29 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!--<item name="android:windowBackground">@color/app_background_color</item>-->
+    </style>
+
+    <style name="about_elementTextAppearance" parent="@android:style/TextAppearance">
+
+        <item name="android:textColor">@color/about_text_color</item>
+
+        <!--<item name="android:textSize">@dimens/about_item_text_size</item>-->
+
+    </style>
+
+
+    <style name="about_groupTextAppearance" parent="@android:style/TextAppearance">
+
+        <item name="android:textColor">@color/about_item_text_color</item>
+
+        <item name="android:textSize">@dimen/about_group_item_text_size</item>
+
+    </style>
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name ="android:windowBackground"> @drawable/splash_screen_background</item>
+    </style>
+</resources>

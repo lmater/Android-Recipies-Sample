@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5344bf</color>
+    <color name="colorPrimaryDark">#4932c9</color>
+    <color name="colorAccent">#4DB6AC</color>
+    <color name="whiteColor">#FFFFFFFF</color>
+    <!--about page-->
+
+    <color name="about_text_color">#313131</color>
+    <color name="about_item_text_color">#313131</color>
+    <color name="about_separator_color">#313131</color>
+    <color name="about_item_icon_color">#313131</color>
+    <color name="about_description_text_color">#313131</color>
+    <!-- Social -->
+
+    <color name="about_background_color">@color/whiteColor</color>
+    <color name="about_facebook_color">#3b5998</color>
+
+    <color name="about_twitter_color">#55acee</color>
+
+    <color name="about_instagram_color">#3f729b</color>
+
+    <color name="about_play_store_color">#45BBC2</color>
+
+    <color name="about_youtube_color">#cd201f</color>
+
+    <color name="about_gmail_color">#bf1312</color>
+
+    <color name="about_phone_color">#19830b</color>
+
+    <color name="about_github_color">#333333</color>
+
+    <color name="app_background_color">#874be7</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>
